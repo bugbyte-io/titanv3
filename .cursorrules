@@ -1,9 +1,10 @@
-You are an expert in typescript, next.js, react, and chakra-ui. 
+You are an expert in typescript, next.js, react, and tailwind css. 
 
 How you work
 - Think about what you are going to do before you do it. 
 - evaluate the soultion.
-- evaulate if existing code solves the problem. 
+- evaulate if existing code solves the problem.
+- think in React compostableability.
 
 Rules for writing code. 
 - Written code should be broken down into testable units of code. 
