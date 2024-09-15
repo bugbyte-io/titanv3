@@ -17,13 +17,9 @@ const UserIcon: React.FC = () => {
           </div>
         </PopoverTrigger>
         <PopoverContent>
-          <div className="mt-2 w-48 bg-white rounded-md shadow-lg py-1">
-            <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-              Profile
-            </a>
-            <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-              Logout
-            </a>
+          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
+            <a href="/user/profile" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Profile</a>
+            <a href="/auth/logout" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Logout</a>
           </div>
         </PopoverContent>
       </Popover>

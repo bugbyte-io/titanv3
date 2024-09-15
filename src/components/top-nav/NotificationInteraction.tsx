@@ -1,7 +1,7 @@
 import React from 'react';
 import { BellIcon } from 'lucide-react';
 
-const NotificationIcons: React.FC = () => {
+const NotificationInteraction: React.FC = () => {
   return (
     <div className="mr-4 flex space-x-4">
         <BellIcon color='gray'  />
@@ -10,5 +10,5 @@ const NotificationIcons: React.FC = () => {
   );
 };
 
-export default NotificationIcons;
+export default NotificationInteraction;
 
